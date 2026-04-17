@@ -1,11 +1,13 @@
-public class MessageRequest {
+package com.lab5;
+
+public class Message {
     private String message;
     private String hmac;
 
-    public MessageRequest() {
+    public Message() {
     }
 
-    public MessageRequest(String message, String hmac) {
+    public Message(String message, String hmac) {
         this.message = message;
         this.hmac = hmac;
     }
@@ -14,12 +16,12 @@ public class MessageRequest {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
     public String getHmac() {
         return hmac;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public void setHmac(String hmac) {

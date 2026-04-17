@@ -1,4 +1,4 @@
-/**
+package com.lab5; /**
  * Project: Lab5
  * Purpose Details: Web Service and HMAC
  * Course : IST 242
