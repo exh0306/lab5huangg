@@ -1,3 +1,14 @@
+/**
+ * Project: Lab5
+ * Purpose Details: Web Service and HMAC
+ * Course : IST 242
+ * Author: Emlety Huang
+ * Date Developed: 4/15/26
+ * Last Date Changed: 4/17/26
+ * Revision: 4/17/26
+ *
+ */
+
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
