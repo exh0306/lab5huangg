@@ -27,7 +27,7 @@ public class HMACReceiver {
         } else {
             System.out.println("HMAC NOT received");
         }
-        System.out.println("Message: " + message);
-
+        System.out.println("Message Sent : " + message);
+        System.out.println("Web service received:");
     }
 }
